@@ -1,6 +1,6 @@
-FROM microsoft/windowsservercore:1803
+FROM microsoft/windowsservercore:1909
 
-MAINTAINER yamlcase (at) pixpan.com
+MAINTAINER celestialorb
 
 # Make Chocolately installation/use compatible with docker for windows https://github.com/chocolatey/choco/issues/1055
 ENV chocolateyUseWindowsCompression false
